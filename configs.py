@@ -7,14 +7,14 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", ""))
-    API_HASH = os.getenv("API_HASH", "")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "")
+    API_ID = int(os.getenv("API_ID", "23830477"))
+    API_HASH = os.getenv("API_HASH", "19f8365d98fb11c9cd6c1eaa8b1fa4b8")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6185597348:AAHHDoRBg8PI9b2J_WQNoB5f_7CUFRLSGsg")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Drm Downloader bot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -100))
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "")
-    BOT_OWNER = int(os.getenv("BOT_OWNER","5763082112"))
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001912120311))
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "@drmdownloader111bot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER","1867884587"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
@@ -38,8 +38,8 @@ Nᴏᴛᴇ - ɪ ᴄᴀɴ Pʀᴏᴠɪᴅᴇ Yᴏᴜʀ Mᴏᴠɪᴇs Lɪɴᴋs Iɴ
 
 Fᴏʀ ᴍᴏʀᴇ ɪɴғᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ. ✅**''')
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "")
-    DATABASE_URL = os.getenv("DATABASE_URL", "")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", ""))
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Khrish:<12121212>@cluster1.hh7bbcz.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001834338888"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 5))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "")
